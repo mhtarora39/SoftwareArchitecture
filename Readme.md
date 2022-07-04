@@ -5,7 +5,7 @@ Small building block of Archotecture
 ## Types Of Architecture 
 
 1. **Layer Architecture**
-```
+
 * Build out of layer ( i.e Tcp IP)
   a. **Layer is closed (issue)** ( We can't send or access layer directly )
   b. Layer of isolation (Each layer is component and binded each other by interfac     e. No effect on any other layer if any underlaying layer change)
@@ -32,5 +32,4 @@ ToDo add image.
  9. Complexity  ( Good )
 10. Loose Coupling ( Low )
    
-```
-2.
+
