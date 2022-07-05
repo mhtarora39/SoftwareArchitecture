@@ -1,35 +1,38 @@
-## Compoent 
+#### Component  
 
-Small building block of Archotecture
+Small building block of Architecture
 
 ## Types Of Architecture 
 
 1. **Layer Architecture**
 
-* Build out of layer ( i.e Tcp IP)
-  a. **Layer is closed (issue)** ( We can't send or access layer directly )
-  b. Layer of isolation (Each layer is component and binded each other by interfac     e. No effect on any other layer if any underlaying layer change)
-  c. Sepration of concerns.
-  d. Architect decide which layer needs to open.
-  e. Open layer interoduce cross layer concerns.
+<img src="./Layerd%20Architecture.jpg" width="50%" style="vertical-align:middle;margin:50px 5%">
 
-ToDo add image.
+
+* Build out of layer ( i.e Tcp IP)<br>
+  a. **Layer is closed (issue)** ( We can't send or access layer directly )</br>
+  b. Layer of isolation (Each layer is component and binded each other by interface)    
+  c. No effect on any other layer if any underlying layer change
+  d. Separation of concerns.
+  e. Architect decide which layer needs to open
+  f. Open layer introduce cross layer concerns
 
 ### Layer Architecture Concerns
 
 * Good General Architecture 
-* Sink Hole : Whach out for architecture sinkhole anti-pattren.
-* Tands to land at monolythic.
+* Sink Hole : Which out for architecture sinkhole anti-pattern.
+* Tends to land at monolithic.
 
 ### Analysis 
 
- 1. Overall Agility  Low Score
- 2. Deployment ( Low )
+ 1. Overall Agility ( Low ) : Overall design
+ 2. Deployment ( Low ) : Full deployment is re
  3. Testability ( Good )
- 4. Performance ( Law )
+ 4. Performance ( Low )
  5. Scalability ( Low )
  6. Development ( Good )
  9. Complexity  ( Good )
 10. Loose Coupling ( Low )
-   
+
+
 
