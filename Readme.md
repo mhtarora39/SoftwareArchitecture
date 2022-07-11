@@ -2,6 +2,37 @@
 
 Small building block of Architecture
 
+### Topics:
+
+* What Is Domain-Driven Design (DDD)
+* Building Domain Knowledge
+* The Ubiquitous Language
+* The Need for a Common Language
+* Creating the Ubiquitous Language
+* The Building Blocks Of A Model-Driven Design
+* Layered Architecture
+* Entities
+* Value Objects
+* Services
+* Modules
+* Aggregates
+* Factories
+* Repositories
+* Refactoring Toward Deeper Insight
+* Continuous Refactoring
+* Bring Key Concepts Into Light
+* Preserving Model Integrity
+* Bounded Context
+* Continuous Integration
+* Context Map
+* Shared Kernel
+* Customer-Supplier
+* Conformist
+* Anticorruption Layer
+* Separate Ways
+* Open Host Service
+* Distillation
+
 ## Types Of Architecture 
 
 1.**Layer Architecture**
@@ -39,7 +70,21 @@ Small building block of Architecture
 2.**Event Driven Architecture**
 
 ### Mediator Topology
+All events are orchestrated by the Event Mediator. Events are published to mediator . This is a application or program which will decide 
+* what subscriber gets the which event.
+* Mediator sometime stores the states , data for complex application.
+
+<img src="./event-mediator.png" width="50%" style="vertical-align:middle;margin:50px 5%"/>
+
 ### Broker Topology
+All the events are send to bus (a queue).
+* It just stores the events as it is.
+* events can be retrieves in FIFO manner.
+
+<img src="./event-bus.jpeg" width="50%" style="vertical-align:middle;margin:50px 5%"/>
+
+
+
   
 
 
