@@ -50,14 +50,14 @@ TwoDArray GetTriplets(std::vector<int> array, int targetSum) {
     // Step 2: Find the pair for remaining elements
     // Time and Space Complexity O(N^2) and O(1)
     std::sort(array.begin(),array.end());
-    TwoDArray triplates;
+    TwoDArray triplets;
     for(int i = 0; i < array.size(); i++ ) {
         auto pairs = GetPairs(array,targetSum - array[i],i+1,array.size()-1);
         for(const auto& pair : pairs) {
-            triplates.push_back({array[i],pair[0],pair[1]});
+            triplets.push_back({array[i],pair[0],pair[1]});
         }
     }
-    return triplates;
+    return triplets;
 }
   
 
