@@ -1,4 +1,4 @@
-#include <set>
+#include <unordered_set>
 #include <vector>
 #include <iostream>
 
@@ -13,13 +13,13 @@ int countPairs(const std::vector<int>& array,int targetSum) {
 
 // Algo
 
-//1) Check complement number exists in set ?
-//2) If no add it to set.
+//1) Check current number exists in set ?
+//2) If no add it its complement to set.
 //3) If exist count it as pair.
 
 //Code
     int count = 0;
-    std::set<int> keeper;
+    std::unordered_set<int> keeper;
     for(const int& ele : array) {
         int number = targetSum - ele;
         if(keeper.find(ele) != keeper.end()) {
@@ -38,6 +38,7 @@ int countPairs(const std::vector<int>& array,int targetSum) {
 // And each number will be counted twice.
 
 }
+
 int main() {
   std::vector<int> arr {1,2,-3,8,3};
   std::cout << "Total number of pairs. " << countPairs(arr,5) << std::endl;
