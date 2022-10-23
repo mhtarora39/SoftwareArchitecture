@@ -63,11 +63,11 @@ TwoDArray GetTriplets(std::vector<int> array, int targetSum) {
 
 
 int main() {
-  std::vector<int> arr {1,2,-3,8,3,2,0};
+  std::vector<int> arr {1,2,3,4,5,6,7,8,9,15};
   //std::cout << "Total number of triplets. " << countPairs(arr,5) << std::endl;
-  auto triplets = GetTriplets(arr,5);
+  auto triplets = GetTriplets(arr,18);
   for(auto& triple : triplets) {
-    std::cout << "Triples : " << triple[0] << triple[1] << triple[2] << std::endl; 
+    std::cout << "Triples : " << triple[0] << "," << triple[1] <<","<<  triple[2] << std::endl; 
   }
 
 }
