@@ -1,6 +1,14 @@
 #include <iostream>
 #include <vector>
 
+/*
+Hint :
+
+Idea Here To find bound for every point in array.
+That can be done by finding max from when we are traveling left to right
+as well as when we are traveling right to left.
+
+*/
 using namespace std;
 int trap(vector<int> &height)
 {

@@ -1,4 +1,4 @@
-# Array Problems
+# Array Solved Problems:
 * [Counting Pairs](CountPairs.cpp) : Given an array of N integers, and a number sum, the task is to find the number of pairs of integers in the array whose sum is equal to sum.</p>
 * [Counting Triplets](CountTriplets.cpp) : Given an array of N integers, and a number sum, the task is to find the number of triplets of integers in the array whose sum is equal to sum.
     #### Conditions:
@@ -16,6 +16,11 @@
 * [Rains](Rains.cpp) : Given n non-negative integers representing an elevation map where the width of each bar is 1, compute how much water it can trap after raining.
 
 - ![alt text](Docs/Rains.png)
+
+## Assignments
+
+[Minimum Difference](MinDiff.cpp): Implement a function that takes in two non-empty arrays of integers, finds the pair of numbers (one from each array) who absolute difference is closest to zero, and returns a pair containing these two numbers, with the first number from array. Only one such pair will exist for the test.
+
 
 
 
