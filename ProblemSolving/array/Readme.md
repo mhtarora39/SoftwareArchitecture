@@ -17,9 +17,13 @@
 
 - ![alt text](Docs/Rains.png)
 
+* [Minimum Swaps](MinimamSwaps.cpp) : You are given an unordered array consisting of consecutive integers  [1, 2, 3, ..., n] without any duplicates. You are allowed to swap any two elements. Find the minimum number of swaps required to sort the array in ascending order.
+
 ## Assignments
 
 [Minimum Difference](MinDiff.cpp): Implement a function that takes in two non-empty arrays of integers, finds the pair of numbers (one from each array) who absolute difference is closest to zero, and returns a pair containing these two numbers, with the first number from array. Only one such pair will exist for the test.
+
+
 
 
 
