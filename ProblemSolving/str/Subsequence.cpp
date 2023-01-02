@@ -15,7 +15,7 @@ void generateSubsequence(std::string in_str, std::string out_str, std::vector<st
 
 int main() {
     std::vector<std::string> results;
-    generateSubsequence("abcd","",results);
+    generateSubsequence("ab","",results);
     for(auto& res : results) {
         std::cout << res << ",";
     }
