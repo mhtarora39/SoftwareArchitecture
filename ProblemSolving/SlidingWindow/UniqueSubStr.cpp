@@ -6,7 +6,7 @@ int findUniqueSubStr(const std::string& string) {
    std::unordered_map<char,int> char_to_idx;
    int max_len = 0;
    int curr_len = 0;
-   //MohitMohabcde;
+   //Mohit Mohabcde;
    //abbbbcd 
    for(int i =0;i < string.size();i++) {
        
