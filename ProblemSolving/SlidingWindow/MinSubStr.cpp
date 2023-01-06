@@ -16,6 +16,7 @@ std::string MinSubStr(const std::string& main_str,const std::string& to_search) 
     // As we can ignore pattern sequence so making map
     for(auto& ch : to_search) {
         pattern_count[ch]++;
+        total_letters++;
     }
 
     // For each pattern algorithm we always contract from one side and expend from other side.
@@ -27,25 +28,31 @@ std::string MinSubStr(const std::string& main_str,const std::string& to_search) 
             cnt++;
         }
         // All letters are found.
-        if(cnt == total_letters) {
+        auto ch_tmp = main_str[start_idx];
+        bool pattern_contracted = false;
+        // We are checking here if all the ch
+        if(cnt ==  total_letters) {
            // Now we will start all the extra chars from frequency count.
            // Based On Below Conditions.
            // 1) Chr is not present in pattern.
            // 2) Chr count is more then pattern count in frequency map.  
-           auto ch_tmp = main_str[start_idx];
-           while (pattern_count.find(ch_tmp) != pattern_count.end() ||
+           while (pattern_count.find(ch_tmp) == pattern_count.end() ||
                   frequency_count[ch_tmp] > pattern_count[ch_tmp])
            {
-               frequency_count[ch_tmp]--;
-               ch_tmp = main_str[++start_idx];
+                pattern_contracted =true;
+                frequency_count[ch_tmp]--;
+                ch_tmp = main_str[++start_idx];
            }
 
-           if(i - start_idx < min_len) {
-                min_len = i - start_idx;
+            if(i - start_idx + 1 < min_len) {
+                min_len = i - start_idx + 1;
                 from = start_idx;
-           }
-
-        } 
+            }
+        }
+        // if(pattern_contracted) {
+        //     cnt--;
+        //     frequency_count[ch_tmp]--;
+        // }
     }
     if(from == -1) {
         return "No Window Found!";
@@ -55,8 +62,11 @@ std::string MinSubStr(const std::string& main_str,const std::string& to_search) 
     }
 }
 
-int main() {
-    std::cout << MinSubStr(" Helolpxoooxlmn","olx") << " == oxl \n"; 
+int main() {               //          3
+    std::cout << MinSubStr("iikikkj","iikj") << " == ikikkj \n"; 
+    std::cout << MinSubStr("hello_world","llo") << " == llo \n";
+    std::cout << MinSubStr("fizzbuzz","fuzz") << " == fizzbu \n";
+    std::cout << MinSubStr("ADOBECODEBANC","ABC") << " == BANC \n";
 }
 
 
