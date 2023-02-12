@@ -83,3 +83,18 @@ Input: s = "ADOBECODEBANC", t = "ABC"
  
 
 </br>Follow up: Could you find an algorithm that runs in O(m + n) time?
+
+[Smallest Distinct Window](SmallestUnique.cpp)
+<p>
+Given a string, find the smallest window (substring) which contains all distinct characters of the given input string.
+</p>
+Sample Inputs
+</br>
+</br>aabcbcdbcaaad
+</br>aaaa
+</br>Sample Outputs
+
+</br>dbca
+</br>a
+</br></br>
+Explanation : The smallest window is "dbca" as it contains all the distinct letters from input string. Similarly for the second case the answer should be 'a'.
