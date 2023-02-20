@@ -11,11 +11,11 @@ Inversions: A pair (A[i], A[j]) is said to be in inversion if:
 </br>Input: A[] = [3, 2, 1]
 </br>Output: 3
 </br>Explanation:
+</br>
+The three pairs of inversions are – (3, 2) , (3, 1), (2, 1)
 
-    The three pairs of inversions are – (3, 2) , (3, 1), (2, 1)
-
-    </br>Input:  A[] = {6, 3, 5 ,2, 7}
-    </br>Output: 5
-    </br>Explanation:
-    </br>
-    The five pairs of inversions are – (6, 3) , (6, 5), (6, 2), (3, 2), (5, 2)
+</br>Input:  A[] = {6, 3, 5 ,2, 7}
+</br>Output: 5
+</br>Explanation:
+</br>
+The five pairs of inversions are – (6, 3) , (6, 5), (6, 2), (3, 2), (5, 2)
