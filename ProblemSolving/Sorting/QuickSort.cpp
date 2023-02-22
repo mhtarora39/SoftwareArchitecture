@@ -23,6 +23,7 @@ int partition_a(std::vector<int>& array,int start_idx, int end_idx) {
             }
         }
     }
+
     std::swap(array[pivot_idx],array[right+1]);
     return right+1;
 
@@ -30,23 +31,20 @@ int partition_a(std::vector<int>& array,int start_idx, int end_idx) {
 
 void quick_sort(std::vector<int>& array,int start_idx, int end_idx) 
 {
-    if(array.size() <= 1) {
+    if(start_idx >= end_idx) {
         return;
     }
 
     int part_idx = partition_a(array,start_idx,end_idx);
-    if (part_idx > 0) {
-       quick_sort(array,0,part_idx-1); 
-    }
-    if(part_idx < array.size() -1) {
-       quick_sort(array,part_idx+1,array.size()-1);
-    } 
+    quick_sort(array,start_idx,part_idx-1);
+    quick_sort(array,part_idx+1,end_idx); 
+
     
 
 }
 
 int main() {
-    std::vector<int> arr = {-1,4,-3,2,9,1,2,7,5,2};
+    std::vector<int> arr = {10,5,2,0,7,6,4};
     std::cout << "Input Array " << std::endl;
     for(int i=0;i < arr.size(); i++) {
         std::cout<< arr[i] << " ";
