@@ -5,7 +5,7 @@
 For quality question practice.use below resources:
 
 1. [Interview Kick Starters](./ikk/)  (official source https://github.com/ajaymd/ikk.git)
-2. [Scaler Academy](./Scaler-Academy) (Official Source https://github.com/FazeelUsmani/Scaler-Academy)
+2. [Scaler Academy](./Scaler) (Official Source https://github.com/FazeelUsmani/Scaler-Academy)
 
 ##System Design 
 **ToDo
