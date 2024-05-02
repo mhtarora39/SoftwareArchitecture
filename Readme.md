@@ -108,8 +108,7 @@ All the events are send to bus (a queue).
 21. [Publisher Subscriber Model](https://lnkd.in/dwr9SJak)
 22. [Read your writes](https://lnkd.in/dgv8-P42)
 23. [Async Processing](https://lnkd.in/d55-j-G8)
-24. [Thread Pools and Ordering](https
-
+24. [Thread Pools and Ordering](https://lnkd.in/dV_fqwW8)
 
 
 
