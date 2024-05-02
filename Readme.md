@@ -83,6 +83,34 @@ All the events are send to bus (a queue).
 
 <img src="./event-bus.jpeg" width="50%" style="vertical-align:middle;margin:50px 5%"/>
 
+# Low Level Design Simplified
+
+1. [What is low level design](https://lnkd.in/dEuym7QW)
+2. [APIs and Package Structuring](https://lnkd.in/dyb2sUFB)
+3. [Single Responsibility Principle](https://lnkd.in/dBtGnApc)
+4. [Prototype Design Pattern](https://lnkd.in/deEBx6nx)
+5. [DRY principle](https://lnkd.in/drNd3-wu)
+6. [Iterator Design Pattern](https://lnkd.in/dpVqMK6Q)
+7. [Builder Design Pattern](https://lnkd.in/dysd5kvR)
+8. [Open Closed Principle](https://lnkd.in/dDvFuQHa)
+9. [Encapsulation](https://lnkd.in/dk7Kmy4R)
+10. [Liskov Substitution](https://lnkd.in/dmnGnJtQ)
+11. [Singleton and Null Patterns](https://lnkd.in/d-uCx3SV)
+12. [Chain of Responsibility Pattern](https://lnkd.in/dMYh2wwd)
+13. [Interface Segregation](https://lnkd.in/d9s-yJgZ)
+14. [Dependency Inversion](https://lnkd.in/dMZQUakW)
+15. [Proxy and Flyweight Patterns](https://lnkd.in/dZa5dT6r)
+16. [State Pattern](https://lnkd.in/dNM2fvGG)
+17. [Factory Pattern](https://lnkd.in/dxfAp7uz)
+18. [Strategy Pattern](https://lnkd.in/dmppqC2q)
+19. [Command Pattern](https://lnkd.in/dmArXYDt)
+20. [Inheritance vs. Composition](https://lnkd.in/dZ5m2KTw)
+21. [Publisher Subscriber Model](https://lnkd.in/dwr9SJak)
+22. [Read your writes](https://lnkd.in/dgv8-P42)
+23. [Async Processing](https://lnkd.in/d55-j-G8)
+24. [Thread Pools and Ordering](https
+
+
 
 
   
